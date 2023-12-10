@@ -5,9 +5,22 @@
   text-align: center;
 }
 
-.App {
-
+img {
+  width: 100px;
+  animation-duration: 3s;
+  animation-name: logo-spin;
+  animation: logo-spin infinite 10s linear;
 }
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 
 

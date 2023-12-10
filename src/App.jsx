@@ -11,6 +11,7 @@ function App() {
   return (
       <div className="App">
         <h1>Puppy Pals</h1>
+        <img alt = "puppy" src="https://ih1.redbubble.net/image.4820283200.6502/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg"/>
         {
           puppies.map((puppy) => {
             return (<p onClick={() => {setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>);
